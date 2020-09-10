@@ -1,0 +1,46 @@
+
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: darkslategray;
+    
+}
+.result{
+    width: 450px;
+    height: 80px;
+    margin: 0px 25px 0px 25px;
+    border: 1px solid steelblue;
+    background-color: whitesmoke;
+    text-align: right;
+}
+#input{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    text-align: left;
+}
+#result{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    text-align: right;
+}
+.container{
+    width: 450px;
+    height: 353.5px;
+    margin: 10px 25px 10px 25px;
+    border: 1px solid springgreen;
+}
+
+.container td{
+    width: 22.5%;
+    height: 64.5px;
+    margin:2.5%;
+    text-align: center;
+    border: 1px solid tan;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.container td:hover{
+    background-color: turquoise;
+}

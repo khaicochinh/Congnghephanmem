@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Caculator</title>
+</head>
+
+<body style="background-color: black;">
+    <div class="main">
+        <div style="width: 100%; height: 25px;"></div>
+        <div class="result">
+            <div id="input"></div>
+            <div id="result"></div>
+        </div>
+        <div class="container">
+            <table style="width: 100%;">
+                <tr>
+                    <td id="inverse">1/X</td>
+                    <td class="numbers" id="sqrt">√</td>
+                    <td id="C">C</td>
+                    <td id="DEL">DEL</td>
+                </tr>
+                <tr>
+                    <td class="numbers" onclick="Number()">7</td>
+                    <td class="numbers" onclick="Number()">8</td>
+                    <td class="numbers" onclick="Number()">9</td>
+                    <td class="numbers" id="add">+</td>
+                </tr>
+                <tr>
+                    <td class="numbers" onclick="Number()">4</td>
+                    <td class="numbers" onclick="Number()">5</td>
+                    <td class="numbers" onclick="Number()">6</td>
+                    <td class="numbers" id="sub">-</td>
+                </tr>
+                <tr>
+                    <td class="numbers" onclick="Number()">1</td>
+                    <td class="numbers" onclick="Number()">2</td>
+                    <td class="numbers" onclick="Number()">3</td>
+                    <td class="numbers" id="mul">*</td>
+                </tr>
+                <tr>
+                    <td id="PT2">PT2</td>
+                    <td class="numbers" onclick="Number()">0</td>
+                    <td id="resultAll">=</td>
+                    <td class="numbers" id="div">/</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>
